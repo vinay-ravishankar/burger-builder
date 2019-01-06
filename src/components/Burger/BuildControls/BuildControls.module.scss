@@ -1,0 +1,29 @@
+.BuildControls {
+    width: 100%;
+    background-color: #e27b36;
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.OrderButton {
+    background: #d63e06;
+    border: 2px solid #d63e06;
+    padding: 10px 8px 12px;
+    vertical-align: middle;
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1;
+    margin: 30px 5px 15px;
+    cursor: pointer;
+
+    &:disabled {
+        background: #ccc;
+        cursor: default;
+    }
+}

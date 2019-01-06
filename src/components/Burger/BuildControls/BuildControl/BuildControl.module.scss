@@ -1,0 +1,33 @@
+.BuildControl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    font-weight: 700;
+    font-size: 20px;
+
+    .Label {
+        width: 120px;
+        padding: 5px;
+    }
+
+    button {
+        background: #dc630a;
+        border: 2px solid #8c4b1b;
+        padding: 5px 8px 7px;
+        vertical-align: middle;
+        color: #fff;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 1;
+        margin: 0 5px;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+
+        &:disabled {
+            background: #ccc;
+            cursor: default;
+        }
+    }
+}
